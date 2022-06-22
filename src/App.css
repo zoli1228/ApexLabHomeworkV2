@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.App {
+  padding: 0;
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  font-weight: 800;
+  justify-content: center;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-size: 22px;
+  background: linear-gradient(rgb(0, 0, 0), rgb(48, 117, 163));
+
+}
+
+a,
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  text-decoration: none;
+  color: white;
+  outline: solid white;
+  box-shadow: white 0 0 5px;
+  margin: 7px;
+  padding: 3px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, .4);
+  border: none;
+  transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
+}
+
+a:hover,
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  text-shadow: 2px 2px 4px black;
+  text-indent: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.footer>a,
+button, .footer > .btnContainer > a, button {
+  width: 20%;
+  min-width: 100px;
+  padding: 10px;
+}
+
+.footer>.btnContainer {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px 0;
+  width: 100%;
+
+}

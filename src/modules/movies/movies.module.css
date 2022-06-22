@@ -1,0 +1,11 @@
+.movieContainer {
+    margin: 0;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+

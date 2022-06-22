@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.mainContainer {
+    width: 50%;
+    min-width: 200px;
+}
+
+.mainContainer > a, button {
+    margin-top: 8px;
+}
+
+.logo  {
+    text-align: center;
+    width: 20%;
+    min-width: 300px;
+    height: fit-content;
+    display: inline-block;
+    filter:drop-shadow(2px 2px 5px black)
+
+}
+.logo > img {
+    width: 100%;
+}
