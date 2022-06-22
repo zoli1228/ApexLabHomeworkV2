@@ -14,8 +14,8 @@ export default function SearchBar() {
     }, [navigate, searchInput]);
 
     return (
-        <div className="header">
-            <input autoFocus className={style.searchbar} type="search" placeholder="Search for your favourite movies!" ref={searchInput} onKeyDown={(e) => {
+        <div className="search">
+            <input autoFocus className={style.searchbar} type="search" placeholder="Search" ref={searchInput} onKeyDown={(e) => {
                 if (e.key === "Enter") handleInput()
             }} />
             <button onClick={handleInput}>Search</button>
